@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
 
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'IBM Plex Serif', sans-serif;
+}
+
 body {
     margin: 0;
     background-color: antiquewhite;
@@ -18,6 +24,11 @@ body {
 #bottom-bar {
     height: 50px;
     background-color: #795548;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
 }
 
 #title-text {
@@ -31,7 +42,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    margin-bottom: 15px;
 }
 
 #copyright a {
@@ -48,7 +59,30 @@ body {
 .content {
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 140px;
+    margin-top: 160px;
+}
+
+#contact-form {
+    max-width: 500px;
+}
+
+.input-field {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+#contact-field-set {
+    padding: 15px 20px 15px 15px;
 }
 
 .navigation a {
