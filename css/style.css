@@ -92,3 +92,12 @@ textarea {
     text-decoration: none;
     font-family: 'Playfair Display SC', sans-serif;
 }
+
+#submit-button {
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    background: #795548;
+}
