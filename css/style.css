@@ -133,3 +133,12 @@ textarea {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#next-button {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    background: #795548;
+}
