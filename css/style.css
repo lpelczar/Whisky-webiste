@@ -63,7 +63,8 @@ body {
 }
 
 #contact-form {
-    max-width: 500px;
+    width: 60%;
+    display: inline-block;
 }
 
 .input-field {
@@ -82,6 +83,7 @@ textarea {
 }
 
 #contact-field-set {
+    border-radius: 10px;
     padding: 15px 20px 15px 15px;
 }
 
@@ -100,4 +102,26 @@ textarea {
     border-radius: 3px;
     border: 0;
     background: #795548;
+}
+
+.author-info {
+    width: 37%;
+    padding-left: 10px;
+    vertical-align:top;
+    display: inline-block;
+}
+
+.author-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#introduction {
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid black;
+    text-align: center;
 }

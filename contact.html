@@ -21,25 +21,34 @@
 </header>
 
 <div class="content">
-    <form id="contact-form">
-        <fieldset id="contact-field-set">
-            <label class="form-label">
-                Name<br>
-                <input class="input-field" type="text" name="name" placeholder="Enter your name" required>
-            </label>
-            <br>
-            <label class="form-label">
-                Email
-                <input class="input-field" type="email" name="email" placeholder="Give your email" required>
-            </label>
-            <br>
-            <label class="form-label">
-                Message
-                <textarea class="input-field" name="message" placeholder="Enter your message"></textarea>
-            </label>
-            <input id="submit-button" type="submit" name="submit" value="Send message">
-        </fieldset>
-    </form>
+    <div class=contact-content">
+        <form id="contact-form">
+            <fieldset id="contact-field-set">
+                <label class="form-label">
+                    Name<br>
+                    <input class="input-field" type="text" name="name" placeholder="Enter your name" required>
+                </label>
+                <br>
+                <label class="form-label">
+                    Email
+                    <input class="input-field" type="email" name="email" placeholder="Give your email" required>
+                </label>
+                <br>
+                <label class="form-label">
+                    Message
+                    <textarea class="input-field" name="message" placeholder="Enter your message"></textarea>
+                </label>
+                <input id="submit-button" type="submit" name="submit" value="Send message">
+            </fieldset>
+        </form>
+
+        <aside class="author-info">
+            <img src="assets/images/lukaszp.jpg" alt="Łukasz Pelczar">
+            <div id="introduction">
+                <p>Łukasz is programming enthusiast.</p>
+            </div>
+        </aside>
+    </div>
 </div>
 
 <footer>
