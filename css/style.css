@@ -3,10 +3,11 @@
 
 body {
     margin: 0;
+    background-color: antiquewhite;
 }
 
 #title-bar {
-    height: 170px;
+    height: 130px;
     background-color: #795548;
     position: fixed;
     top: 0;
@@ -23,22 +24,34 @@ body {
     font-family: 'IBM Plex Serif', sans-serif;
     margin-left: 150px;
     color: whitesmoke;
-    font-size: 45px;
+    font-size: 35px;
+}
+
+#copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#copyright a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: gold;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
 }
 
 .content {
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
-a {
+.navigation a {
     margin-right: 15px;
     font-size: x-large;
     color: white;
