@@ -120,8 +120,18 @@ textarea {
 }
 
 #introduction {
+    margin-top: -60px;
     background-color: white;
     border-radius: 10px;
     border:1px solid black;
     text-align: center;
+}
+
+#introduction h3 {
+    margin-top: 70px;
+}
+
+#introduction p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
