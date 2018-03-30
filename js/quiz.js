@@ -1,5 +1,7 @@
 function submitQuiz() {
 
+    document.getElementById('submitButton').style.display = 'none';
+
     function getQuestionScore (questionName) {
         let questionScore;
         const answers = document.getElementsByName(questionName);
@@ -45,11 +47,3 @@ function submitQuiz() {
     }
     document.getElementById('userScore').innerHTML = showScore;
 }
-
-$(document).ready(function() {
-
-    $('#submitButton').click(function() {
-        $(this).addClass('hide');
-    });
-
-});
