@@ -2,7 +2,7 @@
 
 p.question {
     font-family: 'IBM Plex Serif', sans-serif;
-    font-size:20px;
+    font-size:16px;
     color: #2E2E2E;
     margin-bottom:0;
     padding-left: 10px;
@@ -21,6 +21,7 @@ h2.quizHeader {
 
 h2.quizScore{
     font-family: 'IBM Plex Serif', sans-serif;
+    margin-top: 10px;
     font-size:20px;
 }
 

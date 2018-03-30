@@ -43,7 +43,7 @@ function submitQuiz() {
     let showScore = "Your Score: " + totalScore + "/" + maxScore;
 
     if (totalScore === maxScore) {
-        showScore = showScore + " <strong>Perfect Score, congratulations!</strong>"
+        showScore = showScore + " <strong>Perfect Score, Congratulations!</strong>"
     }
     document.getElementById('userScore').innerHTML = showScore;
 }
