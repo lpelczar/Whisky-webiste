@@ -12,6 +12,18 @@ body {
     background-color: antiquewhite;
 }
 
+#index-header {
+    display: none;
+}
+
+#index-content {
+    display: none;
+}
+
+#index-footer {
+    display: none;
+}
+
 #title-bar {
     height: 130px;
     background-color: #795548;
