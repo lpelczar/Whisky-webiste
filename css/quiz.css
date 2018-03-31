@@ -63,6 +63,11 @@ table {
     background: #795548;
 }
 
+#userScore {
+    font-size: large;
+    font-weight: bold;
+}
+
 #quizContent {
     display: flex;
     flex-direction: column;

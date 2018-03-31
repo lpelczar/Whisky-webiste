@@ -12,6 +12,10 @@ body {
     background-color: antiquewhite;
 }
 
+ul {
+    list-style-type: none;
+}
+
 #index-header {
     display: none;
 }
