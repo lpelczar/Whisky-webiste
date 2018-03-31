@@ -1,5 +1,9 @@
 function startAnimation() {
-    wait(2000);
+    wait(1000);
+    displayContent();
+}
+
+function displayContent() {
     document.getElementById('animation').style.display = 'none';
     document.getElementById('index-header').style.display = 'block';
     document.getElementById('index-content').style.display = 'block';
