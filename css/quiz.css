@@ -53,6 +53,7 @@ table {
 }
 
 .quizSubmit {
+    margin-top: 20px;
     margin-bottom: -40px;
     padding: 6px;
     font-size: 18px;
