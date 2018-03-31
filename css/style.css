@@ -142,3 +142,24 @@ textarea {
     border-radius: 3px;
     background: #795548;
 }
+
+#whisky-img {
+    margin-left: 10px;
+    float: right;
+    width: 13%;
+    border-radius: 3px;
+}
+
+.paragraph-img {
+    margin-left: 10px;
+    float: right;
+    width: 20%;
+    border-radius: 3px;
+}
+
+#malting-floor-img {
+    margin-left: 10px;
+    float: right;
+    width: 47%;
+    border-radius: 3px;
+}
