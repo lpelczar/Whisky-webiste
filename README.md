@@ -15,9 +15,9 @@ Remember to use sources (images, sounds etc.) only with proper usage rights, lab
 
 ## Sample screenshots
 
-![c1](http://i63.tinypic.com/2zphze8.png)
-![c2](http://i68.tinypic.com/2vjolrs.png)
-![c3](http://i63.tinypic.com/1zl6bty.png)
+![c1](https://raw.github.com/lpelczar/Whisky-website/master/screenshots/whisky1.png)
+![c1](https://raw.github.com/lpelczar/Whisky-website/master/screenshots/whisky2.png)
+![c1](https://raw.github.com/lpelczar/Whisky-website/master/screenshots/whisky3.png)
 
 ## More info
 
